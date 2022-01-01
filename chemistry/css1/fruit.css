@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1{
+    text-align: center;
+}
+img{
+    margin: 50px 0 100px 100px;
+}
+th,td{
+    text-align: center;
+}
+#data{
+    width: 66%;
+    margin-left: 17%;
+}
+
+

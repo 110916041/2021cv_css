@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1{
+    text-align: center;
+}
+img{
+    margin: 50px 0 100px 100px;
+}
+#data1{
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+#data2{
+    width: 50%;
+    float: right;
+    height: 200px;
+}
+#data1 table{
+
+    margin-top: 30px;
+}
+#data2 table{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+

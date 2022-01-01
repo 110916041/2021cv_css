@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.header{
+  height: 250px;
+}
+
+.left{
+  margin: 40px 20px 20px 20px;
+  width: 15%;
+  height: 700px;
+  float: left;
+  background-color: #d6ffb6;
+  border-radius: 10px;
+  border: #ffffff solid;
+}
+.right{
+  margin: 25px;
+  width: 78%;
+  height: 750px; 
+  float: right;
+  background-color: #d5ffd0;
+  border-radius: 10px;
+  border: #ffffff solid;
+}
+#text{
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+}
+#fall,#tube,#slit,#balance,#FMA{
+  width: 150px;
+  height: 50px;
+  background-color: #9bcdf3;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 50px;
+  margin: 30px auto 10px auto;
+}
+
+.left a{
+  text-decoration: none;
+  font-size: 32px;
+}

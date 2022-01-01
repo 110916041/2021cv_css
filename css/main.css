@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a, .aboutme {
+  display: inline-block;
+  color: #c9a4fd;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 80px;
+}
+
+li a:hover, .dropdown:hover .aboutme {
+  background-color: #5581f6;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-text {
+  display: none;
+  background-color: #5c72d4;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 250, 250, 0.97);
+  z-index: 9999;
+}
+
+.dropdown-text a {
+  color: #87cff6;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-text a:hover {
+  background-color: #617ae7;
+}
+
+.dropdown:hover .dropdown-text {
+  display: block;
+}
+
+.myname{
+  font-size: 18px;
+  top: 200px;
+  left: 200px;
+  width: 410px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.header{
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/background.jpg");
+  font-family: Microsoft JhengHei;
+}
+
+.about {
+  background: #fff;
+  padding:50px 100px 100px 50px;
+}
+
+.myphoto img {
+  width: 70%;
+  margin: 0 10px 0;
+  border-radius: 10%;
+}
+
+.mytext {
+  padding: 10%;
+  width: 63.33333%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.mydata{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px 0 ;
+}
+.footer{
+  background-color: #60adc6;
+  height: 200px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.icon{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  height: 45%;
+  font-family: "Berlin Sans FB";
+}
+/*fb*/
+.icon1{
+  padding-top: 45px;
+  font-weight: bold;
+  width: 33%;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 20px;
+  font-family: 微软雅黑;
+}
+.icon1 a{
+  text-decoration: none ;
+  background: linear-gradient(to right, #FF9797,#E6CAFF,#ACD6FF,#FFD1A4,#FFE66F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*gmail*/
+.icon2{
+  padding-top: 45px;
+  width: 34%;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 20px;
+  background: linear-gradient(to right, #FF9797,#E6CAFF,#ACD6FF,#FFD1A4,#FFE66F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*ig*/
+.icon3{
+  padding-top: 45px;
+  float: left;
+  width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 20px;
+}
+.icon3 a{
+  text-decoration: none ;
+  background: linear-gradient(to right, #FF9797,#E6CAFF,#ACD6FF,#FFD1A4,#FFE66F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/*就學經歷*/
+.educate{
+  height: 600px;
+  padding: 30px;
+}
+.edu-history{
+  background-color: #abddff;
+  text-align: center;
+  float: left;
+  height: 560px;
+  width: 45%;
+  padding: 20px;
+}
+.edu-history table{
+  border-spacing: 0;
+  width: 100%;
+}
+.edu-history tr {
+  text-align: center;
+  font-size: 18px;
+  font-family: 微软雅黑;
+}
+.edu-history td{
+  padding: 6px;
+}
+.edu-history th {
+  padding: 10px;
+  font-size: 24px;
+  font-family: 微软雅黑;
+}
+.edu-history table tbody tr:nth-child(odd){
+  background-color: #eee
+}
+.edu-history table tbody tr:nth-child(even){
+  background-color: #dcdcdc
+}
+.edu-history table thead {
+  background-color: #e8dac9;
+  color: #89afd0;
+}
+/*音樂欣賞*/
+.music{
+  padding: 20px;
+  width: 45%;
+  float: right;
+  height: 560px;
+  background-color: #dcffc4;
+  text-align: center;
+  overflow: auto;
+}
+.music p{
+  font-family: "Berlin Sans FB";
+  font-size: 20px;
+}
+.music audio{
+  width: 450px;
+}
